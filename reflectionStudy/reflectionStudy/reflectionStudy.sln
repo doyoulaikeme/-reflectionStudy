@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OracleDB", "..\OracleDB\Ora
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlServerDB", "..\SqlServerDB\SqlServerDB.csproj", "{14B45028-3F0D-47AA-8093-D06562E99DB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MysqlDB", "..\Mysql\MysqlDB.csproj", "{31AA356F-6B36-4A64-8803-8BFB3280CC20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{14B45028-3F0D-47AA-8093-D06562E99DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14B45028-3F0D-47AA-8093-D06562E99DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14B45028-3F0D-47AA-8093-D06562E99DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31AA356F-6B36-4A64-8803-8BFB3280CC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31AA356F-6B36-4A64-8803-8BFB3280CC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31AA356F-6B36-4A64-8803-8BFB3280CC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31AA356F-6B36-4A64-8803-8BFB3280CC20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

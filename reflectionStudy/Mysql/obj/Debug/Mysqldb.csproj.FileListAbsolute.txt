@@ -1,0 +1,8 @@
+E:\github项目\反射研究\reflectionStudy\reflectionStudy\Mysql\bin\Debug\Mysql.dll
+E:\github项目\反射研究\reflectionStudy\reflectionStudy\Mysql\bin\Debug\Mysql.pdb
+E:\github项目\反射研究\reflectionStudy\reflectionStudy\Mysql\bin\Debug\DBInterface.dll
+E:\github项目\反射研究\reflectionStudy\reflectionStudy\Mysql\bin\Debug\DBInterface.pdb
+E:\github项目\反射研究\reflectionStudy\reflectionStudy\Mysql\obj\Debug\Mysqldb.csproj.CoreCompileInputs.cache
+E:\github项目\反射研究\reflectionStudy\reflectionStudy\Mysql\obj\Debug\Mysqldb.csproj.CopyComplete
+E:\github项目\反射研究\reflectionStudy\reflectionStudy\Mysql\obj\Debug\Mysql.dll
+E:\github项目\反射研究\reflectionStudy\reflectionStudy\Mysql\obj\Debug\Mysql.pdb

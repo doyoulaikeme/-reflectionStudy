@@ -36,16 +36,21 @@ namespace reflectionStudy
             #endregion
 
             #region 反射+实例化
-            Console.WriteLine("********Reflection+实例化**********");
-            var assembly = Assembly.Load("SqlserverDB");
-            //获取指定类库下的类路径   
-            var type = assembly.GetType("SqlServerDB.SqlServerHelper");
-            //通过Activator.CreateInstance实例化指定路径下的类
-            dynamic db = Activator.CreateInstance(type);
-            //db只能用dynamic动态获取，用object之类的强类型编译器无法识别。
-            db.Query();
+            //Console.WriteLine("********Reflection+实例化**********");
+            //var assembly = Assembly.Load("SqlserverDB");
+            ////获取指定类库下的类路径   
+            //var type = assembly.GetType("SqlServerDB.SqlServerHelper");
+            ////通过Activator.CreateInstance实例化指定路径下的类
+            //dynamic db = Activator.CreateInstance(type);
+            ////db只能用dynamic动态获取，用object之类的强类型编译器无法识别。
+            //db.Query();
             #endregion
 
+            #region MyRegion
+            Console.WriteLine("********封装反射调用**********");
+            var db = Factory.CreateInstance();
+            db.Query();
+            #endregion
             Console.ReadKey();
         }
     }
