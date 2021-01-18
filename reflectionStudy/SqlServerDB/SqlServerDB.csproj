@@ -41,8 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionFilterAttribute.cs" />
+    <Compile Include="AuthorisizeFilterAttribute.cs" />
+    <Compile Include="ReflectionDemo.cs" />
     <Compile Include="SqlServerHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DBInterface\DBInterface.csproj">
