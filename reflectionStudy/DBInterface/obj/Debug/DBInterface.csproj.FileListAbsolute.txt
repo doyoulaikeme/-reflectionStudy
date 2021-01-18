@@ -1,0 +1,5 @@
+E:\github项目\反射研究\reflectionStudy\reflectionStudy\DBInterface\bin\Debug\DBInterface.dll
+E:\github项目\反射研究\reflectionStudy\reflectionStudy\DBInterface\bin\Debug\DBInterface.pdb
+E:\github项目\反射研究\reflectionStudy\reflectionStudy\DBInterface\obj\Debug\DBInterface.csproj.CoreCompileInputs.cache
+E:\github项目\反射研究\reflectionStudy\reflectionStudy\DBInterface\obj\Debug\DBInterface.dll
+E:\github项目\反射研究\reflectionStudy\reflectionStudy\DBInterface\obj\Debug\DBInterface.pdb

@@ -4,16 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1D1A8789-13E8-475C-A879-F688C5C1F7EC}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>reflectionStudy</RootNamespace>
-    <AssemblyName>reflectionStudy</AssemblyName>
+    <ProjectGuid>{F49351FB-0C5F-4814-95DC-418802490E56}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DBInterface</RootNamespace>
+    <AssemblyName>DBInterface</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,25 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="IDBHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DBInterface\DBInterface.csproj">
-      <Project>{f49351fb-0c5f-4814-95dc-418802490e56}</Project>
-      <Name>DBInterface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\OracleDB\OracleDB.csproj">
-      <Project>{c4469813-f443-4b6a-abdc-c39ff0fd58c6}</Project>
-      <Name>OracleDB</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SqlServerDB\SqlServerDB.csproj">
-      <Project>{14b45028-3f0d-47aa-8093-d06562e99db3}</Project>
-      <Name>SqlServerDB</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
